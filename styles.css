@@ -2,11 +2,26 @@ h1 {
   font-family: sans-serif;
   size: 48px;
   color: #e6005c;
+  margin-top: 75px;
+  text-align: center;
+
 }
 
 h2 {
   font-family: sans-serif;
-  size: 36px;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 75px;
+  line-height: 12px;
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #e6005c;
 }
 
 p.intro {
@@ -19,22 +34,50 @@ p.intro {
   color: red;
   font-style: italic;
 }
+
 li.best {
   font-style: oblique;
   color: #ff33cc;
 }
 
-ul {
+p {
   font-style: bold;
-  color: #e6005c;
+  color: #888888;
   font-size: 20px;
   font-family: sans-serif;
-  line-height: 100px;
 }
 
-p {
+.cupcake {
+  float: left;
+  margin: 2%;
+  width: 19.75%;
+}
+
+img {
+  width: 100%;
+}
+
+.cupcake li {
+  padding: 20px;
+}
+
+.cupcake img {
+  height: 300px;
+}
+
+.cupcake p {
+  color: #e6005c;
+}
+
+.wrapper {
+  margin: auto;
+  width: 85%;
+}
+
+.about {
   width: 50%;
-  font-family: sans-serif;
-  font-size: 20px;
-  font-style: lighter;
+}
+
+body {
+  background: linear-gradient(180deg, white, #ffffcc);
 }
